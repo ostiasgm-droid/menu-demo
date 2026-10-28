@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sazón Dorada - Menú</title>
+<style>
+  :root { --c1:#e8590c; --c2:#fff4e6; --txt:#2b2b2b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Arial,sans-serif; background:var(--c2); color:var(--txt); padding-bottom:90px; }
+  header { background:var(--c1); color:#fff; text-align:center; padding:24px 16px; }
+  header h1 { font-size:26px; }
+  header p { font-size:15px; margin-top:4px; }
+  main { max-width:600px; margin:0 auto; padding:16px; }
+  h2 { color:var(--c1); font-size:20px; margin:22px 0 8px; border-bottom:2px solid var(--c1); padding-bottom:4px; }
+  .plato { display:flex; justify-content:space-between; gap:12px; background:#fff; padding:12px; border-radius:10px; margin-bottom:8px; }
+  .plato b { font-size:17px; }
+  .plato small { display:block; font-size:14px; color:#666; margin-top:2px; }
+  .precio { font-weight:bold; color:var(--c1); font-size:17px; white-space:nowrap; }
+  .wsp { position:fixed; bottom:16px; right:16px; left:16px; max-width:568px; margin:0 auto; background:#25d366; color:#fff; text-align:center; padding:16px; border-radius:50px; font-size:18px; font-weight:bold; text-decoration:none; box-shadow:0 4px 12px rgba(0,0,0,.25); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Sazón Dorada</h1>
+  <p>Comida casera · Aiquile</p>
+</header>
+<main>
+  <h2>Almuerzos</h2>
+  <div class="plato"><div><b>Pique macho</b><small>Carne, salchicha, papas y huevo</small></div><span class="precio">Bs 35</span></div>
+  <div class="plato"><div><b>Silpancho</b><small>Con arroz, papa y huevo</small></div><span class="precio">Bs 25</span></div>
+  <div class="plato"><div><b>Sopa de maní</b><small>Con papas fritas</small></div><span class="precio">Bs 18</span></div>
+
+  <h2>Desayunos</h2>
+  <div class="plato"><div><b>Salteña</b><small>De pollo o carne</small></div><span class="precio">Bs 7</span></div>
+  <div class="plato"><div><b>Api con pastel</b><small>Bebida caliente tradicional</small></div><span class="precio">Bs 12</span></div>
+
+  <h2>Bebidas</h2>
+  <div class="plato"><div><b>Refresco de mocochinchi</b></div><span class="precio">Bs 6</span></div>
+  <div class="plato"><div><b>Jugo natural</b><small>Según la fruta del día</small></div><span class="precio">Bs 10</span></div>
+</main>
+<a class="wsp" href="https://wa.me/59170000000?text=Hola, quiero hacer un pedido" target="_blank">Pedir por WhatsApp</a>
+</body>
+</html>
